@@ -2,13 +2,10 @@ locals {
   environment = "${lookup(var.workspace_to_environment_map, terraform.workspace, "dev")}"
 }
 
-resource "aws_s3_bucket" "demo_bucket" {
 
-  bucket_prefix = "bucket-in-${var.region}-stage-${local.environment}"
-
-  versioning {
-    enabled = true
-  }
+resource "google_storage_bucket" "demo_bucket" {
+  name          = "bucket-in-${local.environment}"
+  force_destroy = true
 }
 
 resource "google_service_account" "demo_service_account" {
