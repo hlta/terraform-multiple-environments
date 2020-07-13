@@ -48,7 +48,7 @@ resource  "google_service_account"  "demo_service_account" {
 ```
 **Note:  It is importance to enforce the use of env value to the resource identifier like bucket and service account above. If you want to be region aware then you can contatinate with region value**
 
-Keeping Terraform state in a remote file is a must. I decided to store my project’s state in GCS since it was quick and easy to set up. Retrieves state data from a Terraform backend. This allows you to use the root-level outputs of one or more Terraform configurations as input data for another configuration. This will allow you to referrece to the ouput between projects
+Keeping Terraform state in a remote file is a must. I decided to store my project’s state in GCS since it was quick and easy to set up. Retrieves state data from a Terraform backend. This allows you to use the root-level outputs of one or more Terraform configurations as input data for another configuration.
 
 **In project b**
 
