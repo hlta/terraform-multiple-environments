@@ -11,7 +11,7 @@ This project had a few simple requirements, specifically that we needed to be ab
  - qa
  - sit
 
-It also needed to be able to run multiple terraform projects as a separate deployment. To make it simple you will be able to run  **terraform apply**  on **project a**  and **project b** separately but still be above to reference the terraform **outputs** between them without harcoded parameters.
+It also needed to be able to run multiple terraform projects as a separate deployment. To make it simple you will be able to run  **terraform apply**  on **project a**  and **project b** separately but still be able to reference the terraform **outputs** between them without harcoded parameters.
 
 ## Solution
 
