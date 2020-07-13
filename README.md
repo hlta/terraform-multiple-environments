@@ -69,4 +69,4 @@ resource  "google_project_iam_member"  "project" {
 }
 ```
 
-That is it for now :-)). Happy codeing !!!
+That is it for now :-)). Happy coding !!!
