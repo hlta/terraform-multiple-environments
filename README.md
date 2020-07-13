@@ -1,6 +1,6 @@
 # Terraform Multiple Environments!
 
-Terraform is a tool for provisioning immutable infrastructure. It allows you to create infrastructure programmatically in a declarative manner while tracking the state of the infrastructure. Since I wasn’t really happy with terrform and Deployment Manager is not that mature yet and have to use it cause it already has been selected by my organization :-)), I decided to do some research, copy people ideas and come up with the solution.
+Terraform is a tool for provisioning immutable infrastructure. It allows you to create infrastructure programmatically in a declarative manner while tracking the state of the infrastructure. Since I wasn’t really happy with terrform and Google Deployment Manager is not that mature yet and have to use it cause it already has been selected by my organization :-)), I decided to do some research, copy people ideas and come up with the solution.
 
 
 ## Background
